@@ -112,6 +112,12 @@ kubectl apply -f Deployment_Files/makeline-service.yaml -n best-buy-app
 kubectl apply -f Deployment_Files/ai-service.yaml -n best-buy-app
 
 ```
+### Issues and Limitations
+**Azure Service Bus Integration**
+   - Replacing RabbitMQ required significant code for message handling.
+**Azure AI Service**
+   - Not able to fix the AI service.
+
 
 ## Repositories
 This table lists the GitHub repositories for each of the microservices in the project:
