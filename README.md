@@ -104,12 +104,12 @@ kubectl get pods
 Apply the deployment YAML files for each microservice:
 
 ```
-kubectl apply -f Deployment_Files/best-buy-store-front.yaml -n best-buy-app
-kubectl apply -f Deployment_Files/best-buy-store-admin.yaml -n best-buy-app
-kubectl apply -f Deployment_Files/best-buy-order-service.yaml -n best-buy-app
-kubectl apply -f Deployment_Files/best-buy-product-service.yaml -n best-buy-app
-kubectl apply -f Deployment_Files/best-buy-makeline-service.yaml -n best-buy-app
-kubectl apply -f Deployment_Files/best-buy-ai-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/store-front.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/store-admin.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/order-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/product-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/makeline-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/ai-service.yaml -n best-buy-app
 
 ```
 
