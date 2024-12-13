@@ -2,7 +2,7 @@
 
 This repository contains the source code, documentation, and deployment files for the Best Buy demo cloud-native application. The application follows microservices architecture and incorporates AI capabilities for product descriptions and image generation.
 
-### Application Architecture
+## Application Architecture
 
 ### Application Table
 
@@ -41,11 +41,11 @@ This repository contains the source code, documentation, and deployment files fo
 
 #### Prerequisites
 
-Azure account for Azure Service Bus and Azure Kubernetes Service (AKS).
+* Azure account for Azure Service Bus and Azure Kubernetes Service (AKS).
 
-Docker installed and configured.
+* Docker installed and configured.
 
-kubectl CLI installed and configured for your AKS cluster.
+* kubectl CLI installed and configured for your AKS cluster.
 
 Access to OpenAI APIs for GPT-4 and DALL-E.
 
@@ -78,6 +78,19 @@ kubectl apply -f Deployment Files/
    Ensure all pods are running
 ```
 kubectl get pods
+```
+5. Deploy Microservices
+
+Apply the deployment YAML files for each microservice:
+
+```
+kubectl apply -f Deployment_Files/best-buy-store-front.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/best-buy-store-admin.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/best-buy-order-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/best-buy-product-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/best-buy-makeline-service.yaml -n best-buy-app
+kubectl apply -f Deployment_Files/best-buy-ai-service.yaml -n best-buy-app
+
 ```
 
 ## Repositories
