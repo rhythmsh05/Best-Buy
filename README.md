@@ -142,3 +142,7 @@ This table lists the docker images for each of the microservices in the project:
 | Makeline-Service   | https://hub.docker.com/repository/docker/shar0855/makeline-service/general |
 | Store-Admin        | https://hub.docker.com/repository/docker/shar0855/best-buy-store-admin/general |
 | AI-Service         | https://hub.docker.com/repository/docker/shar0855/best-buy-ai-service/general |
+
+
+## Video Presentation Link:
+https://algonquinlivecom-my.sharepoint.com/:v:/g/personal/shar0855_algonquinlive_com/EXdkgqgKZ91HtU0jmI7KU7kBciNq-opxRUrDMRXPkSDEag?e=bw4lCU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
