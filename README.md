@@ -145,4 +145,6 @@ This table lists the docker images for each of the microservices in the project:
 
 
 ## Video Presentation Link:
+Youtube Link: https://www.youtube.com/watch?v=CbaWQiXm2aw
+
 https://algonquinlivecom-my.sharepoint.com/:v:/g/personal/shar0855_algonquinlive_com/EXdkgqgKZ91HtU0jmI7KU7kBciNq-opxRUrDMRXPkSDEag?e=bw4lCU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
