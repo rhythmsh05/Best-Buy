@@ -67,7 +67,27 @@ docker push shar0855/<service-name>:latest
 ```
 3. Setup Azure Resources
 
-**Creation** of Azure Resources
+Resource group name: assignment
+
+Region: East US.
+
+Click Review + Create and then Create.
+
+4. Create AKS Clusters
+
+- Select **agentpool**. This nodes will have the controlplane.
+        - Set **node size** to `D2as_v4`.
+        - **Scale method**: `Manual`
+        - **Node count**: `1`
+        - Click `update`
+     - Click on **Add node pool**:
+        - **Node pool name**: `workernodes`.
+        - **Mode**: `User` 
+        - Set **node size** to `D2as_v3`.
+        - **Scale method**: `Manual`
+        - **Node count**: `2`
+        - Click `add`
+   - Click **Review + Create**, and then **Create**. The deployment will take a few minutes.
 
 **Deploy to Kubernetes** Apply the deployment YAML files:
 ```
