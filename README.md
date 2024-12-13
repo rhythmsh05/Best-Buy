@@ -116,7 +116,7 @@ kubectl apply -f Deployment_Files/ai-service.yaml -n best-buy-app
 **Azure Service Bus Integration**
    - Replacing RabbitMQ required significant code for message handling.
 **Azure AI Service**
-   - Not able to fix the AI service.
+   - Facing issue while implementing ai service.
 
 
 ## Repositories
